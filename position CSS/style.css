@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  width: 605px;
+  height: 400px;
+  background-color: lightblue;
+}
+
+#box-1{
+  width: 300px;
+  height: inherit;
+  background-color: lightcoral;
+  position: absolute;
+}
+
+#box-2{
+  width: 300px;
+  height: inherit;
+  background-color: lightgreen;
+  position: relative;
+}
