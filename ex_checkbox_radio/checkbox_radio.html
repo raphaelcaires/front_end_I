@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário Netflix</title>
+</head>
+
+<body>
+  <h1>Sanduba do Rapha</h1>
+  <form action="/sanduba" method="POST">
+    <section class="ingrediente-proteina">
+      <p>Selecione sua proteína</p>
+      <div>
+        <input type="radio" id="carne" name="tipo-proteina" value="carne">
+        <label for="carne">Carne</label>
+      </div>
+      <div>
+        <input type="radio" id="frango" name="tipo-proteina" value="frango">
+        <label for="frango">Frango</label>
+      </div>
+      <div>
+        <input type="radio" id="falafel" name="tipo-proteina" value="falafel">
+        <label for="falafel">Falafel</label>
+      </div>
+    </section>
+    <section class="ingrediente-adicionais">
+      <p>Selecione seus adicionais</p>
+      <div>
+        <input type="checkbox" id="queijo" name="queijo" value="queijo">
+        <label for="queijo">Queijo</label>
+      </div>
+      <div>
+        <input type="checkbox" id="bacon" name="bacon" value="bacon">
+        <label for="bacon">Bacon</label>
+      </div>
+      <div>
+        <input type="checkbox" id="maionese" name="maionese" value="maionese">
+        <label for="maionese">Maionese</label>
+      </div>
+    </section>
+  </form>
+</body>
+
+</html>

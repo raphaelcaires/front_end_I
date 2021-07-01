@@ -1,0 +1,49 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+.icon{
+  width: 50px;
+  height: 50px;
+}
+
+h1{
+  font-weight: 800;
+}
+
+li{
+ list-style: none;
+}
+
+ol,ul{
+  padding-left: 0;
+}
+
+categorias{
+  display: inline;
+}
+
+.nav{
+  display: inline-block;
+}
+
+.produtos *{
+  display: inline-block;
+  justify-content: f;
+}
+
+.produtos p {
+  text-align: center;
+  display: block;
+}
+
+.produtos div{
+  margin-right: 50px;
+  margin-bottom: 50px;
+  padding: 1.5vw;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  box-shadow: rgb(126, 126, 126) 30px 12px 50px 50px;
+  background-color: white;
+  
+}
