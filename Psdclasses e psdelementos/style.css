@@ -1,0 +1,40 @@
+a{
+  text-decoration: none;
+}
+
+a:visited{
+  color: firebrick;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+a:focus{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.div{
+  width: 100px;
+  height: 50px;
+  display: block;
+  background-color: lime;
+  box-sizing: border-box;
+}
+
+.exemplo:hover{
+  border: 3px solid
+}
+
+.item-radio input{
+  display: none;
+}
+
+label::before{
+  content: '';
+  width: 10px;
+  height: 10px;
+  display: block;
+  border-radius: 50%;
+  border: 2px solid #000;
+}
